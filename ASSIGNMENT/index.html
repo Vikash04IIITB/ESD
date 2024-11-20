@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Express - Fresh Food Delivery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="position-relative">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-absolute w-100" style="z-index: 1000;">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fas fa-pizza-slice me-2"></i>Foodie Express
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-basket"></i> My Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+           <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Food Spread Banner" class="w-100" style="height: 60vh; object-fit: cover;">
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h3 class="fw-bold">Enjoy Fresh and Tasty Food Delivered to Your Door</h3>
+    </div>
+
+    <!-- Products Section -->
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Margherita Pizza -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591" class="card-img-top" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheesy Margherita</h5>
+                        <p class="card-text">Classic pizza topped with fresh tomatoes and mozzarella.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Order Now</button>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Classic Burger -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd" class="card-img-top" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Deluxe Burger</h5>
+                        <p class="card-text">Juicy burger with lettuce, tomatoes, and special sauce.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Order Now</button>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional food items -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" class="card-img-top" alt="Tacos">
+                    <div class="card-body">
+                        <h5 class="card-title">Mexican Tacos</h5>
+                        <p class="card-text">Flavor-packed tacos with fresh ingredients and spices.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Order Now</button>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Bolognese</h5>
+                        <p class="card-text">Rich and hearty spaghetti with ground beef sauce.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Order Now</button>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1543353071-087092ec393a" class="card-img-top" alt="Ice Cream">
+                    <div class="card-body">
+                        <h5 class="card-title">Gourmet Ice Cream</h5>
+                        <p class="card-text">Delicious, creamy ice cream with a variety of flavors.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Order Now</button>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e" class="card-img-top" alt="Pancakes">
+                    <div class="card-body">
+                        <h5 class="card-title">Fluffy Pancakes</h5>
+                        <p class="card-text">Light and fluffy pancakes topped with syrup.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <button class="btn btn-danger">Order Now</button>
+                            <div class="rating">
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star-half-alt text-warning"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

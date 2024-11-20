@@ -1,0 +1,108 @@
+/* Hero Section */
+.hero-section img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero-content {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff0000 !important;
+}
+
+.navbar .nav-link {
+    color: black !important;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #ff0000 !important;
+}
+
+/* Cards */
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+.rating {
+    font-size: 0.9rem;
+    color: #ffcc00;
+}
+
+/* Buttons */
+.btn-danger {
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #cc0000;
+}
+
+/* Title */
+.title {
+    color: #333;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .hero-section img {
+        height: 400px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
